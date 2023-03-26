@@ -1,3 +1,5 @@
+#!/bin/bash
+
 # Убедитесь, что скрипт запущен с правами администратора
 if [ "$(id -u)" -ne 0 ]; then
   echo "Error: This script must be run as root"
